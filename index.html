@@ -1,1 +1,613 @@
-Hello World
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Bootstrap Template</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Optional Bootstrap theme -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/freelancer.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/main.css"> <!-- Resource style -->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="img/logo-nav.png" style="width:30px;height:30px;">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About 
+            <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#page2">Me in a nutshell</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#programming-languages">Programming Languages</a></li>
+                <li><a href="#education">Education</a></li>
+              </ul>
+            </li>
+            <li><a href="#page3">Projects</a></li>
+            <li><a href="#page4">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="page1">
+            <div class="container">
+                <div class="row">
+                     <div class="col-lg-12">
+                        <div id="logo-image">
+                            <img class="img-centered" src="img/logo.png" alt="">
+                        </div>
+                            <span class="name text-center">Hi, I am Abby.</span>
+                            <span class="skills text-center">I like to bring ideas to life through the use of technology.</span>
+                     </div>
+                </div>
+            </div>
+    </div>
+
+<!-- About page -->
+    <div id="page2" class="smooth">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div>
+                        <hr class="aboutHeader">
+                    </div>
+                    <div id="about-me" class="text-center subhead">Me in a nutshell</div>
+                    <p class="about-text text-center">
+                        I am a fourth year software engineering major at Cal Poly, San Luis Obispo set to graduate in June 2017. <br><br>I love creating experiences through technology that excites the user and engages them to learn. <br><br>My favorite movie is Rush Hour, I LOVE reading and have too many favorite books to list, and my favorite quote is “In my world everyone is a pony and they all eat rainbows and poop butterflies" by Dr. Seuss.
+                    </p>
+                    <div id="internships" class="text-center subhead smooth">Internships</div>
+                        <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                            <div class="internship-thumbnail">
+                              <div class="text-center internships-header">
+                                Apple
+                              </div>
+                              <div id = "appleImage" class="internship-image">
+                                <img src="img/Apple-Logo-Black.png" alt="...">
+                              </div>
+                              <div class="text-center internship-date">
+                                <p>Summer 2016</p>
+                              </div>                              
+                              <div class="text-center internships-caption">
+                                <p>Developed a data visualization web application to assist with customer experience and troubleshooting.</p>
+                              </div>
+                              <div class="text-center internship-link" style="margin-bottom: 20px">
+                                <a class =href="https://www.tapestrysolutions.com/">www.apple.com</a>
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4">
+                            <div class="internship-thumbnail">
+                                <div class="text-center internships-header">
+                                    Tapestry Solutions
+                                 </div>
+                                <div class="internship-image">
+                                    <img src="img/Tapestry-Logo.png" alt="...">
+                                </div>
+                              <div class="text-center internship-date">
+                                <p>March 2015 - April 2016</p>
+                              </div>                              
+                              <div class="text-center internships-caption" style="min-height: 3em">
+                                <p>Worked with senior software developers to develop new features and fix bugs in management application.</p>
+                              </div>
+                              <div class="text-center internship-link" style="margin-bottom: 20px">
+                                <a class =href="https://www.tapestrysolutions.com/">www.tapestrysolutions.com</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4">
+                            <div class="internship-thumbnail">
+                                <div class="text-center internships-header">
+                                    Belami Inc.
+                                 </div>
+                              <div  class="internship-image">
+                                <img src="img/Belami-Logo.png" class = "img-centered" alt="...">
+                              </div>
+                              <div class="text-center internship-date">
+                                <p>Summer 2014-Summer 2015</p>
+                              </div>
+                              <div class="text-center internships-caption">
+                                <p>Worked in the IT department as well as customer service in order to better understand company roles.
+                                </p>
+                              </div>
+                              <div class="text-center internship-link" style="margin-bottom: 20px">
+                                <a class =href="https://www.1stoplighting.com/">www.1stoplighting.com</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                    <div id="programming-languages" class="text-center subhead smooth">Programming Languages</div>
+                        <div id="programming-container" class="container">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <ul class="programming-ul">
+                                        <li>Java</li>
+                                        <li>Python</li>
+                                        <li>CSS</li>
+                                        <li>C</li>
+                                    </ul>
+                                </div>
+                                <div class="hearts col-lg-3">
+                                    <img src="img/fourHearts.png" alt="">
+                                    <img src="img/fourHearts.png" alt="">
+                                    <img src="img/twoHearts.png" alt="">
+                                    <img src="img/threeHearts.png" alt="">
+                                </div>
+                                <div class="col-lg-3">
+                                    <ul class="programming-ul">
+                                        <li>Swift</li>
+                                        <li>ActionScript</li>
+                                        <li>JavaScript</li>
+                                        <li>HTML</li>
+                                    </ul>
+                                </div>
+                                <div class="hearts col-lg-3">
+                                    <img src="img/threeHearts.png" alt="">
+                                    <img src="img/threeHearts.png" alt="">
+                                    <img src="img/threeHearts.png" alt="">
+                                    <img src="img/fourHearts.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div id="education" class="text-center subhead smooth">Education</div>
+                    <section id="cd-timeline" class="cd-container">
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-picture">
+                                <img src="img/eg-logo.svg" alt="Picture">
+                            </div> <!-- cd-timeline-img -->
+
+                            <div class="cd-timeline-content">
+                                <h2>Elk Grove High School</h2>
+                                <span class="cd-date">2009-2013</span>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-picture">
+                                <img src="img/cp-logo.svg" alt="Picture">
+                            </div> <!-- cd-timeline-img -->
+
+                            <div class="cd-timeline-content">
+                                <h2>California Polytechnic State University</h2>
+                                <span class="cd-date">2013-2017</span>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-picture">
+                                <img src="img/more-logo.svg" alt="Picture">
+                            </div> <!-- cd-timeline-img -->
+
+                            <div class="cd-timeline-content">
+                                <h2>To Be Continued...</h2>
+                                <p>Eventually I would like to attend a masters program in Human Computer Interaction.</p>
+                                <span class="cd-date">????-????</span>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+                    </section> <!-- cd-timeline -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal views -->
+    <div class="portfolio-modal modal fade" id="FMN-Modal-View" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Forget Me Not</h2>
+                            <hr>
+                            <img src="img/portfolio/FMN-Modal-View.png" class="img-responsive img-centered" alt="">
+                            <p>ForgetMeNot is an iOS application created to remind people when they need to send a message for a special occasion. ForgetMeNot prompts users to enter a recipient, a message, and the date. The application will then send a notification to the user when the message needs to be sent. ForgetMeNot is integrated with Facebook, Twitter, Email and SMS text messaging. <br>
+                            ForgetMeNot was created by a group of Freshmen at Cal Poly. This was the first iOS application any of them had created, and the first coding project many of them had ever worked on.</p>
+                            <ul class="item-details">
+                                <li>Class: <strong>CPE 123-Intro to iOS Development</strong>
+                                </li>
+                                <li>Date: <strong>Fall 2013</strong>
+                                </li>
+                                <li>Collaborators: <strong>Erica Dorn, Spencer Sprowls, Victor Bissonnette, Garvin Yee, Jamie Corr, Jake Whipple
+</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="DSS-Modal-View" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Detective Super Sleuth</h2>
+                            <hr>
+                            <img src="img/portfolio/DSS-Modal-View.png" class="img-responsive img-centered" alt="">
+                            <p>Detective Super Sleuth is a multi player online card game application. Players could connect with other players that were are on the same sever. If there were not enough players then the extra spots would be filled in by robots.<br><br>
+                            Detective Super Sleuth was two quarter long project created by seven students all in our third year at California Polytechnic State University -SLO. Most of the first quarter was spent on soliciting requirements, creating a class diagram, as well as creating a vertical and horizontal prototype. The rest of the first quarter and second quarter was spent on development and automated testing.</p>
+                            <ul class=" item-details">
+                                <li>Class: <strong>Software Engineering I and II</strong>
+                                </li>
+                                <li>Date: <strong>Fall 2015 - Winter 2016</strong>
+                                </li>
+                                <li>Collaborators: <strong>Alexis Fraga, Nancy Truong, Daniel Yao, Noah Weitz, Jacob Rickman, Christopher Siu, David Browning</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="Goob-Modal-View" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Goob</h2>
+                            <hr>
+                            <!--<img src="img/portfolio/Goob-Modal-View.png" class="img-responsive img-centered" alt="">-->
+                            <video width="500" height="350" autoplay>
+                              <source src="GoobRecording.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video>
+
+                            <p>Goob is a 2.5D puzzle game where the user paints the world in order to solve puzzles. The main character in the game is a simple creature that does not understand emotions and is living in a very simplistic and bland world. As the character comes across the different colors it is introduced to different emotions. These colors or emotions that he picks up are then used to paint the world and change the terrain that he is moving along.</p>
+                            <ul class="item-details">
+                                <li>Class: <strong>Interactive Entertainment Engineering</strong>
+                                </li>
+                                <li>Date: <strong>Spring 2015</strong>
+                                </li>
+                                <li>Collaborators: <strong>Mitchell Zehr, Emily Mullins</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="GameFramework-Modal-View" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Game Framework</h2>
+                            <hr>
+                            <img src="img/portfolio/GameFramework-Modal-View.png" class="img-responsive img-centered" alt="">
+                            <p>This was an individual project where students were given instructions to create two different types of games. Once I implemented both games using Java and Java Swing, I then pulled out any common functionality in order to create the game framework. I then used Java Reflection in order to dynamically load the classes that were created for the separate plugins.</p>
+                            <ul class="item-details">
+                                <li>Class: <strong>Individual Software Development</strong>
+                                </li>
+                                <li>Date: <strong>Spring 2016</strong>
+                                </li>
+                                <li>Collaborators:
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="Quotes-Modal-View" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Quotes</h2>
+                            <hr>
+                            <img src="img/portfolio/Quotes-Modal-View.png" class="img-responsive img-centered" alt="">
+                            <p>These posters were created during my senior year of high school. I love reading and graphic design and these posters are a combination of two things I love doing.</p>
+                            <ul class="item-details">
+                                <li>Class: <strong>High School Technology and Digital Arts Classes</strong>
+                                </li>
+                                <li>Date: <strong>Fall 2009 - Spring 2013</strong>
+                                </li>
+                                <li>Collaborators:
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="Logos-Modal-View" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Logos</h2>
+                            <hr>
+                            <img src="img/portfolio/Logos-Modal-View.png" class="img-responsive img-centered" alt="">
+                            <p>The above logos were created during my high school graphic design classes. The different logo design ideas spans from when I thought the pen tool was the most frustrating thing in the world to my senior year when I had finally come to recognize its full glory.</p>
+                            <ul class=" item-details">
+                                <li>Client: <strong>High School Technology and Digital Arts Classes</strong>
+                                </li>
+                                <li>Date: <strong>Fall 2009 - Spring 2013</strong>
+                                </li>
+                                <li>Collaborators:
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Portfolio view -->
+    <div id="page3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div style="padding-bottom: 25px;">
+                        <hr class="projectHeader">
+                    </div>
+
+                    <ul id="filter">
+                        <li class="current"><a href="#">All</a></li>
+                        <li><a href="#">Software</a></li>
+                        <!--<li><a href="#">Photoshop</a></li>-->
+                        <li><a href="#">Illustrator</a></li>
+                        <!--<li><a href="#">Adobe XD</a></li>-->
+                    </ul>
+
+                    <ul id="portfolio">
+                        <li class="software">
+                            <a href="#GameFramework-Modal-View" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/GameFramework.png" class="img-responsive hvr-grow" alt="">
+                            </a>
+                        </li>
+                        <li class="software">
+                            <a href="#DSS-Modal-View" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/DSS.png" class="img-responsive hvr-grow alt="">
+                            </a>
+                        </li>
+                        <li class="software">
+                            <a href="#FMN-Modal-View" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/FMN.png" class="img-responsive hvr-grow" alt="">
+                            </a>
+                        </li>
+                        <li class="software">
+                            <a href="#Goob-Modal-View" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+
+                            <img src="img/portfolio/Goob.png" class="img-responsive hvr-grow" alt=""> 
+                            </a>
+                        </li>
+                        <li class="illustrator">
+                            <a href="#Logos-Modal-View" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/logos.png" class="img-responsive hvr-grow" alt="">
+                            </a>
+                        </li>
+                        <li class="illustrator">
+                            <a href="#Quotes-Modal-View" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/quotes.png" class="img-responsive hvr-grow" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+    <div id="page4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div style="padding-bottom: 25px;">
+                        <hr class="contactHeader">
+                    </div>
+
+                    <form id="contact-form" method="post" action="mailto:schmiedtabby@gmail.com.com" role="form">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send email">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>            
+            </div>
+         </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="centerImage col-lg-12">
+                    <a href="https://www.linkedin.com/in/abby-schmiedt-ba997983">
+                        <img alt="Linkedin" src="img/linkedin-logo.png" style="width:50px;height:50px;">
+                    </a>
+                    <!--<a href="#">
+                        <img alt="EmailLogo" src="img/email-logo.png" style="width:50px;height:50px;">
+                    </a>-->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <script src="js/contact.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('ul#filter a').click(function() {
+            $(this).css('outline','none');
+            $('ul#filter .current').removeClass('current');
+            $(this).parent().addClass('current');
+            var filterVal = $(this).text().toLowerCase().replace(' ','-');
+            if(filterVal == 'all') {
+                $('ul#portfolio li.hidden').fadeIn('slow').removeClass('hidden');
+            }
+            else {
+                $('ul#portfolio li').each(function() {
+                    if(!$(this).hasClass(filterVal)){
+                        $(this).fadeOut('normal').addClass('hidden');
+                    }
+                    else {
+                        $(this).fadeIn('slow').removeClass('hidden');
+                    }
+                });
+            }
+
+          return false;
+        });
+
+    });
+    </script>
+</body>
+</html>

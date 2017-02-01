@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
     <link rel="stylesheet" href="css/freelancer.css"> <!-- Resource style -->
     <link rel="stylesheet" href="css/main.css"> <!-- Resource style -->
@@ -234,8 +233,10 @@
                             <h2>Forget Me Not</h2>
                             <hr>
                             <img src="img/portfolio/FMN-Modal-View.png" class="img-responsive img-centered" alt="">
-                            <p>ForgetMeNot is an iOS application created to remind people when they need to send a message for a special occasion. ForgetMeNot prompts users to enter a recipient, a message, and the date. The application will then send a notification to the user when the message needs to be sent. ForgetMeNot is integrated with Facebook, Twitter, Email and SMS text messaging. <br>
+                            <div class="modal-text">
+                            <p>ForgetMeNot is an iOS application created to remind people when they need to send a message for a special occasion. ForgetMeNot prompts users to enter a recipient, a message, and the date. The application will then send a notification to the user when the message needs to be sent. ForgetMeNot is integrated with Facebook, Twitter, Email and SMS text messaging. <br><br>
                             ForgetMeNot was created by a group of Freshmen at Cal Poly. This was the first iOS application any of them had created, and the first coding project many of them had ever worked on.</p>
+                            </div>
                             <ul class="item-details">
                                 <li>Class: <strong>CPE 123-Intro to iOS Development</strong>
                                 </li>
@@ -268,8 +269,8 @@
                             <h2>Detective Super Sleuth</h2>
                             <hr>
                             <img src="img/portfolio/DSS-Modal-View.png" class="img-responsive img-centered" alt="">
-                            <p>Detective Super Sleuth is a multi player online card game application. Players could connect with other players that were are on the same sever. If there were not enough players then the extra spots would be filled in by robots.<br><br>
-                            Detective Super Sleuth was two quarter long project created by seven students all in our third year at California Polytechnic State University -SLO. Most of the first quarter was spent on soliciting requirements, creating a class diagram, as well as creating a vertical and horizontal prototype. The rest of the first quarter and second quarter was spent on development and automated testing.</p>
+                            <p>Detective Super Sleuth is a multi player online card game application. Players could connect with other players that were on the same sever. If there were not enough players then the extra spots would be filled in by robots.<br><br>
+                            Detective Super Sleuth was a two quarter long project created by seven students all in our third year at California Polytechnic State University -SLO. Most of the first quarter was spent on soliciting requirements, creating a class diagram, as well as creating a vertical and horizontal prototype. The rest of the first quarter and second quarter was spent on development and automated testing.</p>
                             <ul class=" item-details">
                                 <li>Class: <strong>Software Engineering I and II</strong>
                                 </li>
@@ -511,7 +512,7 @@
                         <hr class="contactHeader">
                     </div>
 
-                    <form id="contact-form" method="get" action="mailto:me@abbyschmiedt.com" role="form">
+                    <form id="contact-form" method="post" action="mailto:me@abbyschmiedt.com?subject=Yay a message!" role="form" enctype="text/plain">
                         <div class="messages"></div>
                         <div class="controls">
                             <div class="row">
@@ -556,7 +557,6 @@
                                 </div>
                                 <div class="col-md-12">
                                     <input id= "contact-button" type="submit" class="btn btn-success btn-send" value="Send email">
-                                    <input type="hidden" name="body" />
                                 </div>
                             </div>
                         </div>

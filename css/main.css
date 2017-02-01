@@ -8,7 +8,6 @@
 	border-color: #FDE341;
 }
 
-
 #page1 {
 	height: 650px;
 	padding-top: 100px;
@@ -321,6 +320,7 @@ ul#portfolio li {
 ul#portfolio a { display: block; width: 100%;}
 
 ul#portfolio a:hover { text-decoration: none; }
+ul#portfolio a:focus { text-decoration: none; outline: none;}
 
 ul#portfolio img { 
 	display: block; 

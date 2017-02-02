@@ -23,8 +23,8 @@
 }
 
 #page4 {
-	padding-top: 150px;
-	padding-bottom: 100px;
+	background-color: #7FE5EB;
+	height: 200px;
 }
 
 .hvr-grow {
@@ -45,9 +45,6 @@
 }
 
 
-
-
-
   .name {
 	display: block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -60,8 +57,8 @@
 	display: block;
 	font-size: 1.5em;
 	font-weight: 300;
-	color: #333333;
-	font-family: 'Cormorant Garamond', serif;
+	color: #95989A;
+	font-family: 'Neuton', sans-serif;
 }
 
 .projectInfo {
@@ -77,6 +74,35 @@ footer {
 
 .contactText p{
 	font-size: 10pt;
+}
+
+
+.contact-content{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.contact-header {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 2em;
+	color: #ffffff;
+}
+
+.contact-content p{
+	color: #ffffff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 20px;
+
+}
+
+.contact-content p a{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FDE341;
+	text-decoration: underline;
+
 }
 
 #profile-pic img {
@@ -113,11 +139,11 @@ footer {
 
 .about-text {
 	font-size: 1.5em;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Neuton', sans-serif;
 	padding-top: 25px;
 	padding-bottom: 100px;
 	line-height: 1.5;
-	color: #333333;
+	color: #95989A;
 
 
 }
@@ -135,6 +161,8 @@ footer {
 hr.aboutHeader {
 	border-top: 4px double #8c8b8b;
 	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 hr.aboutHeader:after {
 	content: "About";
@@ -150,6 +178,8 @@ hr.aboutHeader:after {
 hr.projectHeader {
 	border-top: 4px double #8c8b8b;
 	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 hr.projectHeader:after {
 	content: "Projects";
@@ -166,13 +196,14 @@ hr.projectHeader:after {
 hr.contactHeader {
 	border-top: 4px double #8c8b8b;
 	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 hr.contactHeader:after {
 	content: "Contact";
 	display: inline-block;
 	position: relative;
 	top: -40px;
-	padding: 0 10px;
 	background: #ffffff;
 	color: #7FE5EB;
 	font-size: 3em;
@@ -202,16 +233,21 @@ hr.contactHeader:after {
 	padding-top: 10px;
 }
 
-.programming-ul li {
+.programming-ul li p{
 	padding-top: 20px;
 	padding-left: 5px;
 	font-size: 2em;
+		color: #95989A;
+	font-family: 'Neuton', sans-serif;
+
 }
 
-.programming-ul li img {
-	padding-left: 50px;
-	height: 40px;
+.programming-ul li p img {
+	float: right;
+	height: 50px;
 	padding-top: 10px;
+	border-right: 10px;
+
 }
 
 .hearts img {
@@ -264,19 +300,19 @@ hr.contactHeader:after {
 	color:#7FE5EB;
 }
 
-.internships-caption {
-	color: #333333;
+.internships-caption p{
+	color: #95989A;
 	font-size: 1.2em;
-	font-family: 'Cormorant Garamond', serif;
-	line-height: 1.2;
+	font-family: 'Neuton', sans-serif;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-bottom: 10px;
+	line-height: 30px;
 }
 
 .internship-date {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color:#7FE5EB;
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -342,7 +378,7 @@ ul#portfolio img {
 
 
 #circle {
-    width: 225px;
+    width:  ;
     height: 225px;
     border-radius: 50%;
     margin: 0 auto; 

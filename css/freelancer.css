@@ -4,14 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Neuton', sans-serif;
   overflow-x: hidden;
 }
 p {
   font-size: 20px;
   color: #333333;
-  font-family: 'Cormorant Garamond', serif;
-
+  font-family: 'Neuton', sans-serif;
 }
 p.small {
   font-size: 16px;
@@ -77,7 +76,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -100,7 +99,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -459,7 +458,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
   color: #333333;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Crimson Text', sans-serif;
   list-style-type: none;
 
 

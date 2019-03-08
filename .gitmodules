@@ -4,9 +4,13 @@
 [submodule "blockly"]
 	path = blockly
 	url = https://github.com/alschmiedt/blockly.git
+	branch = keyboard_nav_cleanup
 [submodule "scratch-blocks"]
 	path = scratch-blocks
 	url = https://github.com/rachel-fenichel/scratch-blocks.git
+	branch = master
 [submodule "blockly-tools"]
 	path = blockly-tools
 	url = https://github.com/google/blockly-tools.git
+	branch = master
+
